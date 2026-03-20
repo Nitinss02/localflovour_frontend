@@ -7,7 +7,7 @@ import SameerImg from '../assets/Sameer.png';
 import AnjaliImg from '../assets/Anjali.png';
 import PriyaImg from '../assets/priya2.png';
 import HomepageImg from '../assets/Homepageimage.jpg';
-import RatingStars from "./RatingStar";
+import RatingStars from "./RatingStars";
 import Logo from "./Logo";
 
 // Custom hook for media query

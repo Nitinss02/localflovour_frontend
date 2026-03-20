@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactUs = () => {
+const ContactUspage = () => {
   return (
     <div className="max-w-4xl mx-auto p-8 bg-white shadow-md rounded-lg mt-10">
       <h1 className="text-2xl font-bold mb-6 text-purple-700">About Local Flavours</h1>
@@ -48,4 +48,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUspage;

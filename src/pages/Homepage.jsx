@@ -43,7 +43,7 @@ import { SiAdguard } from "react-icons/si";
 import { GiDeliveryDrone } from "react-icons/gi";
 import { TbWorldCheck } from "react-icons/tb";
 import Testimonials from "../components/Testimonials";
-import RatingStars from "../components/RatingStar";
+import RatingStars from "../components/RatingStars";
 import CircularGallery from "../components/Gallery";
 import Gallery from "../components/Gallery";
 
@@ -52,7 +52,7 @@ const fadeInUp = {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
-const Home = () => {
+const Homepage = () => {
     const [expanded, setExpanded] = useState(null);
     const navigate = useNavigate();
 
@@ -680,4 +680,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Homepage;
