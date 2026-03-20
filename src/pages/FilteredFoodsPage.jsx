@@ -2,7 +2,7 @@ import React, { useState, useMemo } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import FoodCards from "../components/FoodCard";
 import { useFilterFoodsQuery, useSearchFoodByNameQuery } from "../services/foodApi";
-import Categoriesbackground from "../assets/CategoriesbackroundImage.png";
+import Categoriesbackroundimage from "../assets/Categoriesbackroundimage.png";
 import { motion } from "framer-motion";
 
 const FilteredFoodsPage = () => {
@@ -88,7 +88,7 @@ const FilteredFoodsPage = () => {
             <section className="bg-gradient-to-b from-white to-purple-50 min-h-screen">
                 <div
                     className="min-h-screen bg-fixed bg-cover bg-right"
-                    style={{ backgroundImage: `url(${Categoriesbackground})` }}
+                    style={{ backgroundImage: `url(${Categoriesbackroundimage})` }}
                 >
                     <div className="flex flex-col items-center justify-center py-20 text-center">
                         <p className="text-red-600 font-medium text-lg mb-2">
@@ -113,7 +113,7 @@ const FilteredFoodsPage = () => {
         <section className="bg-gradient-to-b from-white to-purple-50 min-h-screen">
             <div
                 className="min-h-screen bg-fixed bg-cover bg-right"
-                style={{ backgroundImage: `url(${Categoriesbackground})` }}
+                style={{ backgroundImage: `url(${Categoriesbackroundimage})` }}
             >
                 <motion.div
                     className="container mx-auto px-4 py-8"

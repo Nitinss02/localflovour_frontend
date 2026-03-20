@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import FoodCards from "../components/FoodCard";
-import Categoriesbackground from "../assets/CategoriesbackroundImage.png";
+import Categoriesbackroundimage from "../assets/Categoriesbackroundimage.png";
 import { useGetAllCategoriesQuery } from "../services/categoryApi";
 
 
@@ -97,7 +97,7 @@ const CategoriesPage = () => {
             <div
                 className="min-h-screen bg-fixed bg-cover bg-right text-white"
                 style={{
-                    backgroundImage: `url(${Categoriesbackground})`
+                    backgroundImage: `url(${Categoriesbackroundimage})`
                 }}
             >
                 <div className="mx-auto">
