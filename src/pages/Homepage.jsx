@@ -9,24 +9,8 @@ import { useGetAllFoodsQuery } from '../services/foodApi';
 import { getRegionImage, getCategoryImage, getFoodItemImage, getRegionBadgeCount } from '../utils/imageMapping';
 import HeroImage1 from '../assets/image20.png';
 import spicesimage from "../assets/spicesimage.png";
-import Maharashtra from "../assets/Maharashtra.png";
-import Gujarat from "../assets/Gujarat.png";
-import Surat from "../assets/Surat.png";
-import Punjab from "../assets/Punjab.png";
-import Rajastha from "../assets/Rajasthan.png";
-import PapadMore from "../assets/PapadMore.png";
-import SnackImg from "../assets/Snacks&NamKeen.png";
-import PremixImg from "../assets/InstantPremix.png";
-import PicklesImg from "../assets/Pickles&More.png";
-import MilletImg from "../assets/Milletsuperfood.png";
-import SweetsImg from "../assets/Sweets&More.png";
-import GrainsImg from "../assets/Seasonaltrend.png";
-import CleaningImg from "../assets/Chutney&Masala.png";
 import saffronImg from "../assets/FreshlyArrived.png";
 import sweetsImg from "../assets/DiwaliSweets.png";
-import BhakarwadiImg from "../assets/Bhakarwadi.png";
-import OrangeBarfiImg from "../assets/OrangeBarfi.png";
-import ChivdaImg from "../assets/Chivda.png";
 import DharwadPedaImg from "../assets/DharwadPeda.png";
 import KolhapuriMasalaImg from "../assets/KolhapuriMasala.png";
 import OrangesImg from "../assets/Oranges.png";
@@ -34,8 +18,7 @@ import AlphonsoMangoImg from "../assets/AlphonsoMango.png";
 import SameerImg from '../assets/Sameer.png';
 import AnjaliImg from '../assets/Anjali.png';
 import PriyaImg from '../assets/priya2.png';
-import Categoriesbackground from "../assets/CategoriesbackroundImage.png";
-import HomepageImg from '../assets/Homepageimage.jpg';
+import Categoriesbackroundimage from "../assets/Categoriesbackroundimage.png";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { FaHandHoldingHeart } from "react-icons/fa6";
@@ -44,7 +27,6 @@ import { GiDeliveryDrone } from "react-icons/gi";
 import { TbWorldCheck } from "react-icons/tb";
 import Testimonials from "../components/Testimonials";
 import RatingStars from "../components/RatingStars";
-import CircularGallery from "../components/Gallery";
 import Gallery from "../components/Gallery";
 
 const fadeInUp = {
@@ -192,7 +174,7 @@ const Homepage = () => {
     return (
         <div
             className="flex flex-col min-h-screen w-full overflow-hidden bg-gray-100 bg-fixed bg-cover bg-center"
-            style={{ backgroundImage: `url(${Categoriesbackground})` }}
+            style={{ backgroundImage: `url(${Categoriesbackroundimage})` }}
         >
             {/* HERO SECTION */}
             <motion.section
