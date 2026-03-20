@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import { MdOutlineMail } from "react-icons/md";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useSendOtpMutation } from "../services/AuthApi";
+import { useSendOtpMutation } from "../services/authApi";
 
 function ForgotPasswordPage() {
   const [email, setEmail] = useState("");

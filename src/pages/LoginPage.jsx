@@ -6,7 +6,7 @@ import InputWithIcon from "../components/InputWithIcon";
 import { MdOutlineEmail, MdOutlineVisibility } from "react-icons/md";
 import Logo from "../components/Logo";
 import { toast } from "react-toastify";
-import { useLoginMutation } from "../services/AuthApi";
+import { useLoginMutation } from "../services/authApi";
 import { useAuth } from "../context/AuthContext";
 
 function LoginPage() {

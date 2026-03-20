@@ -6,7 +6,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Logo from "../components/Logo";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useResetPasswordMutation } from "../services/AuthApi";
+import { useResetPasswordMutation } from "../services/authApi";
 
 function CreateNewPasswordPage() {
   const [newPassword, setNewPassword] = useState("");

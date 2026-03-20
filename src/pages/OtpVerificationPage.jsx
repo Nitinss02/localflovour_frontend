@@ -5,7 +5,7 @@ import Button from "../components/Button";
 import Logo from "../components/Logo";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useVerifyOtpMutation } from "../services/AuthApi";
+import { useVerifyOtpMutation } from "../services/authApi";
 
 function OtpVerificationPage() {
   const [otp, setOtp] = useState(["", "", "", "", "", ""]);

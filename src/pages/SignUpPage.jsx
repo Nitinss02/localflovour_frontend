@@ -12,7 +12,7 @@ import {
 import BackgroundImage from "../assets/image6.png";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useRegisterUserMutation } from "../services/AuthApi";
+import { useRegisterUserMutation } from "../services/authApi";
 
 function SignupPage() {
   const navigate = useNavigate();
