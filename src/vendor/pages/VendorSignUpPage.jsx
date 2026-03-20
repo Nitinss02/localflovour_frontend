@@ -14,7 +14,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useRegisterUserMutation } from "../../services/AuthApi";
 
-function VendorSignupPage() {
+function VendorSignUpPage() {
   const navigate = useNavigate();
   const [registerUser, { isLoading }] = useRegisterUserMutation();
 
@@ -152,4 +152,4 @@ function VendorSignupPage() {
   );
 }
 
-export default VendorSignupPage;
+export default VendorSignUpPage;

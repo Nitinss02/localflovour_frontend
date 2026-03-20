@@ -39,7 +39,7 @@ import VendorCreateNewPasswordPage from "./vendor/pages/VendorCreateNewPasswordP
 import VendorOtpVerificationPage from "./vendor/pages/VendorOtpVerificationPage";
 import VendorForgotPasswordPage from "./vendor/pages/VendorForgotPasswordPage";
 import VendorLoginPage from "./vendor/pages/VendorLoginPage";
-import VendorSignupPage from "./vendor/pages/VendorSignUpPage";
+import VendorSignUpPage from "./vendor/pages/VendorSignUpPage";
 import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./routes/ProtectedRoute";
 import VendorOrdersPage from "./vendor/pages/VendorOrdersPage";
@@ -123,7 +123,7 @@ const LayoutWrapper = () => {
 
           {/* Vendor Authentication Routes */}
           <Route path="/vendor/login" element={<VendorLoginPage />} />
-          <Route path="/vendor/signup" element={<VendorSignupPage />} />
+          <Route path="/vendor/signup" element={<VendorSignUpPage />} />
           <Route path="/vendor/forgot-password" element={<VendorForgotPasswordPage />} />
           <Route path="/vendor/verify-otp" element={<VendorOtpVerificationPage />} />
           <Route path="/vendor/reset-password" element={<VendorCreateNewPasswordPage />} />

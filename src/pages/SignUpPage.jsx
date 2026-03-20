@@ -14,7 +14,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useRegisterUserMutation } from "../services/authApi";
 
-function SignupPage() {
+function SignUpPage() {
   const navigate = useNavigate();
   const [registerUser, { isLoading }] = useRegisterUserMutation();
 
@@ -147,4 +147,4 @@ function SignupPage() {
   );
 }
 
-export default SignupPage;
+export default SignUpPage;
